@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts --minify"
+    "build": "tsup index.ts --format cjs,esm --dts --minify",
+    "lint": "tsc"
   },
   "devDependencies": {
     "tsup": "^7.2.0",
